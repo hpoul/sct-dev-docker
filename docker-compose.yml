@@ -5,3 +5,5 @@ web:
     - ./sct-communitytools:/code/sct-communitytools
   ports:
     - "8000:8000"
+  working_dir: /code/sct-communitydraft
+
