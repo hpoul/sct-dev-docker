@@ -1,0 +1,7 @@
+web:
+  build: .
+  volumes: 
+    - ./sct-communitydraft:/code/sct-communitydraft
+    - ./sct-communitytools:/code/sct-communitytools
+  ports:
+    - "8000:8000"
